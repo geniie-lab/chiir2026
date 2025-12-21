@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Controlled Experimentation of Model Search Behaviour with Geniie-Lab
 theme:
   name: material
   language: en
@@ -8,14 +8,14 @@ theme:
   features:
     - navigation.instant
     - navigation.indexes
+    - navigation.tabs
     - navigation.top
-    - search.suggest
-    - search.highlight
   custom_dir: overrides
   icon:
-    logo: simple/lighthouse
+    logo: material/alpha-c-box
 plugins:
-  - search
+  - search:
+      enabled: false
 markdown_extensions:
   - abbr
   - def_list
@@ -61,7 +61,7 @@ extra:
       link: https://twitter.com/hideo_joho
     - icon: fontawesome/solid/paper-plane
       link: mailto:hideo@slis.tsukuba.ac.jp
-copyright: Copyright &copy; 2025 Hideo Joho. All rights reserved.
+copyright: Copyright &copy; 2026 Hideo Joho. All rights reserved.
 nav:
   - Home: index.md
   - About: about.md
