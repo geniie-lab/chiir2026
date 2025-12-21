@@ -1,4 +1,10 @@
-﻿# About
+﻿---
+hide:
+    - navigation
+    - toc
+---
+
+# About
 
 This is a website for a half-day tutorial at [CHIIR 2026](https://chiir2026.github.io/) on Controlled Experimentation of Model Search Behaviour.
 
