@@ -1,4 +1,17 @@
 site_name: Controlled Experimentation of Model Search Behaviour with Geniie-Lab
+nav:
+  - Home: index.md
+  - Hands-on:
+    - handson/index.md
+    - Prerequisites:
+      - handson/prerequisites/dataset.md
+      - Indexing:
+        - handson/prerequisites/indexing.md
+        - handson/prerequisites/indexing_bm25.md
+        - handson/prerequisites/indexing_splade.md
+        - handson/prerequisites/indexing_dpr.md
+      - handson/prerequisites/llms.md
+  - About: about.md
 theme:
   name: material
   language: en
@@ -63,6 +76,4 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:hideo@slis.tsukuba.ac.jp
 copyright: Copyright &copy; 2026 Hideo Joho. All rights reserved.
-nav:
-  - Home: index.md
-  - About: about.md
+
