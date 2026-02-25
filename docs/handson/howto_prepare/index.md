@@ -28,6 +28,6 @@
 
 !!! abstract "Connect to Google Colab"
 
-    - Download [Welcome notebook](welcome.ipynb)
-    - Open the notebook by VSCode
+    - Download [Welcome notebook](welcome.ipynb) (or from [GitHub](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/howto_prepare/welcome.ipynb)) to your PC
+    - Open the notebook using VSCode
     - Follow the instruction in the notebook
