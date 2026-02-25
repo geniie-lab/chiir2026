@@ -14,3 +14,7 @@ hide:
 !!! tip "Homework"
 
     - [How to prepare your PC for the hands-on session](howto_prepare/index.md)
+
+!!! abstract "Experimental Settings"
+
+    - [Understanding the experimental settings in geniie-lab](experimental_settings/index.md)

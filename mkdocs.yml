@@ -12,6 +12,7 @@ nav:
         - handson/prerequisites/indexing_dpr.md
       - handson/prerequisites/llms.md
     - How to Prepare: handson/howto_prepare/index.md
+    - Experimental Settings: handson/experimental_settings/index.md
   - About: about.md
 theme:
   name: material
@@ -71,10 +72,6 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/solid/house
-      link: https://joholab.slis.tsukuba.ac.jp/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/hideo_joho
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:hideo@slis.tsukuba.ac.jp
+      link: https://geniie-lab.github.io/chiir2026/
 copyright: Copyright &copy; 2026 Hideo Joho. All rights reserved.
 

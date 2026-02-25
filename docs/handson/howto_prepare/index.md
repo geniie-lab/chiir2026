@@ -1,3 +1,8 @@
+---
+hide:
+    - toc
+---
+
 # How to prepare your PC for the hands-on session
 
 !!! example "VSCode + Google Colab"
