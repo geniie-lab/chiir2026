@@ -12,6 +12,9 @@ nav:
         - handson/prerequisites/indexing_dpr.md
       - handson/prerequisites/llms.md
     - How to Prepare: handson/howto_prepare/index.md
+    - Getting Started:
+      - handson/getting_started/setup_geniielab.md
+      - handson/getting_started/first_experiment.md
     - Experimental Settings: handson/experimental_settings/index.md
   - About: about.md
 theme:

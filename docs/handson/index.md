@@ -5,7 +5,7 @@ hide:
 
 # Hands-On Material
 
-??? success "Prerequisites for reference (Tutorial participants should skip this)"
+??? quote "Prerequisites for reference (Tutorial participants should skip this)"
     
     - [Dataset](prerequisites/dataset.md)
     - [Indexing](prerequisites/indexing.md)
@@ -14,6 +14,11 @@ hide:
 !!! tip "Homework"
 
     - [How to prepare your PC for the hands-on session](howto_prepare/index.md)
+
+!!! success "Getting Started"
+
+    - [Set up geniie-lab](getting_started/setup_geniielab.md)
+    - [Run the first experiment](getting_started/first_experiment.md)
 
 !!! abstract "Experimental Settings"
 
