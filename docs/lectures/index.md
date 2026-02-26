@@ -30,4 +30,14 @@ hide:
     - [Controlled Experiment](controlled_experiment.md)
     - [Test Collection](test_collection.md)
 
+!!! note "4. Data Analysis"
+
+    - [Descriptive Statistics](descriptive_statistics.md)
+    - [Statistical Testing](statistical_testing.md)
+    - [Effect Size](effect_size.md)
+
 </div>
+
+!!! quote "References"
+
+    - [References](references.md)

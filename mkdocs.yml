@@ -15,6 +15,11 @@ nav:
       - lectures/research_methods.md
       - lectures/controlled_experiment.md
       - Test Collection: lectures/test_collection.md
+    - Data Analysis:
+      - lectures/descriptive_statistics.md
+      - lectures/statistical_testing.md
+      - lectures/effect_size.md
+    - lectures/references.md
   - Hands-on:
     - handson/index.md
     - Prerequisites:
