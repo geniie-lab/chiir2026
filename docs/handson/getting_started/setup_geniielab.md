@@ -19,7 +19,7 @@ hide:
 
     The following instructions should be executed from the terminal in VSCode which is connected to Colab Server.
 
-    You should see the following prompt in the terminal.
+    You should see a prompt like this in the terminal.
 
     ```bash
     /content#
@@ -28,17 +28,16 @@ hide:
 !!! note ":one: Clone geniie-lab dev repository to your Google Drive"
 
     ```bash
-    /content#
-    /content# cd drive/MyDrive # or other location
-    /content/drive/MyDrive# git clone https://github.com/geniie-lab/geniie-lab.git -b dev
+    cd drive/MyDrive # or other location
+    git clone https://github.com/geniie-lab/geniie-lab.git -b dev
     ```
 
     - This should create a folder called `geniie-lab` in your Google Drive.
     - Click `Colab` icon in Activitity Bar
-    - Refresh the file list and check the folder
+    - Refresh the file list and find the folder
 
     ```
-    Colab CPU
+    Colab CPU (GPU T4)
       ├ drive
           ├ MyDrive
               ├ geniie-lab
@@ -46,27 +45,20 @@ hide:
 
 !!! note ":two: Setup geniie-lab"
 
+    :bulb: You need to do this everytime you make a new connection to the server.
+
     ```bash
-    /content/drive/MyDrive# cd geniie-lab
-    /content/drive/MyDrive/geniie-lab# python -m pip install -r requirements_colab.txt
+    cd geniie-lab
+    python -m pip install -r requirements_colab.txt
     # Collecting ...
-    /content/drive/MyDrive/geniie-lab# python -m pip install -e .
+    python -m pip install -e .
     # Obtaining file:///content/drive/MyDrive/geniie-lab
     # ...
     ```
 
 !!! note ":three: Add .env file"
 
-    - Click `Colab` icon in Activitity Bar and find `geniie-lab` folder in the list
-
-        ```
-        Colab CPU
-        ├ drive
-            ├ MyDrive
-                ├ geniie-lab
-        ```
-
-    - Right-click the folder :arrow_right: `New File...`
+    - Right-click the `geniie-lab` folder in the list :arrow_right: `New File...`
     - Enter `.env` as the file name
     - Copy and paste a KEY sent from the organiser
 
@@ -81,7 +73,7 @@ hide:
     - Find `scripts/run_session_experiment_chiir2026.py`
 
         ```
-        Colab CPU
+        Colab CPU (GPU T4)
         ├ drive
             ├ MyDrive
                 ├ geniie-lab

@@ -18,7 +18,7 @@ hide:
 !!! example "Run the session experiment script"
 
     ```bash
-    python scripts/run_session_experiment_chiir2026.py > logs/first_exp.jsonl 2> logs/first_exp.log
+    python scripts/run_session_experiment_chiir2026.py > logs/exp1.jsonl 2> logs/exp1.log
     # 2026-02-25 11:33:38,555 - INFO - NumExpr defaulting to 2 threads.
     # ...
     ```
@@ -27,12 +27,12 @@ hide:
 
     Don't worry! We're here to help :heart:
 
-!!! tip "Let's see the output!"
+!!! abstract "Let's see the output!"
 
     - If the script completed without any error, type the following command in the terminal
 
         ```bash
-        cat logs/first_exp.jsonl | jq
+        cat logs/exp1.jsonl | jq
         ```
 
     -  You should get something like this.
@@ -54,8 +54,26 @@ hide:
         }
         ```
     
-    - Log is available from `logs/first_exp.log`
+    - Log is available in `logs/exp1.log`
 
 !!! success "Congratulations :tada:"
 
     You successfully ran the first experiment using geniie-lab!
+
+    What just happened? Well, you instructed the model `gpt-4o-mini` to formulate a query based on the context information about ...
+
+    - Precision-oriented retrieval task;
+    - First topic of `beir/scidocs` dataset; and
+    - BM25 ranking model
+
+!!! tip "A quick exercise"
+
+    - Edit `scripts/run_session_experiment_chiir2026.py` (Around Line 106)
+
+        ```python
+        full_log=False # Change this to full_log=True
+        ```
+    
+    - Save it and run the script again
+    - See `logs/exp1.log` for detail transactions with LLMs
+    - :bulb: Don't forget to put it back to `False` for the rest of the tutorial (unless you're interested).

@@ -29,6 +29,8 @@
 !!! tip "Subscription Needed"
     Make an account and buy credits. Then, issue an API key.
 
+    :bulb: Some services provide a free tier for a small tesing.
+
 - OpenAI: [https://openai.com/api/](https://openai.com/api/)
 - Google: [https://ai.google.dev/gemini-api/](https://ai.google.dev/gemini-api/)
 - OpenRouter: [https://openrouter.ai/](https://openrouter.ai/)
