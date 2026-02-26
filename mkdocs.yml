@@ -16,6 +16,8 @@ nav:
       - handson/getting_started/setup_geniielab.md
       - handson/getting_started/first_experiment.md
     - Experimental Settings: handson/experimental_settings/index.md
+    - Basic Experiments:
+      - handson/basic_experiments/index.md
   - About: about.md
 theme:
   name: material
