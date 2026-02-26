@@ -1,7 +1,7 @@
 # Dataset
 
 !!! quote "Notebook"
-    - [dataset.ipynb](dataset.ipynb)
+    - [dataset.ipynb](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/prerequisites/dataset.ipynb)
 
 ---
 
