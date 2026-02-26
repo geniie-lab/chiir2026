@@ -9,6 +9,115 @@
 
 ## Query Formulation
 
+!!! example "Comparing AI Persona (System Prompt)"
+
+    **Common Settings**
+
+    ```python
+    plan=["query"],
+    max_topics=3,
+    ```
+
+    === "Experimental Settings"
+
+        ```python
+        models=[
+            ModelDescription(
+                type="openrouter",
+                name="google/gemini-2.5-flash-lite",
+                system_prompt="You're a helpful assistant",
+                temperature=0.0,
+            ),
+            ModelDescription(
+                type="openrouter",
+                name="google/gemini-2.5-flash-lite",
+                system_prompt="You're a helpful assistant in medical domain",
+                temperature=0.0,
+            )
+        ],
+        ```
+    
+    === "Sample Output"
+
+        ```bash
+        cat logs/expN.jsonl | jq '{ Model: .model, Query: .query }'
+        ```
+
+        ```json
+        {
+        "Model": "google/gemini-2.5-flash-lite",
+        "Query": "economic dispatch problem valve-point effect direct search method"
+        }
+        ...
+        {
+        "Model": "google/gemini-2.5-flash-lite",
+        "Query": "predicting defects SAP Java code experience report"
+        }
+        ---
+        {
+        "Model": "google/gemini-2.5-flash-lite",
+        "Query": "economic dispatch problem valve-point effect direct search method"
+        }
+        ...
+        {
+        "Model": "google/gemini-2.5-flash-lite",
+        "Query": "predicting defects SAP Java code"
+        }
+        ```
+
+
+!!! example "Comparing Tool Descriptions"
+
+    **Common Settings**
+
+    ```python
+    plan=["query"],
+    max_topics=1,
+    ```
+
+    === "Experimental Settings"
+
+        ```python
+        tools=[
+            ToolDescription(
+                name="opensearch",
+                ranking_model="bm25",
+                index_name="scidocs_bm25",
+                host="[Change here]",
+                port=9200,
+                use_ssl=False,
+                description="It allows you to perform searches using only keywords and employs the BM25 ranking model to order results.",
+            ),
+            ToolDescription(
+                name="opensearch",
+                ranking_model="bm25",
+                index_name="scidocs_bm25",
+                host="[Change here]",
+                port=9200,
+                use_ssl=False,
+                description="It allows you to perform searches using Lucene syntax and employs the BM25 ranking model to order results.",
+            )
+        ],
+        ```
+    
+    === "Sample Output"
+
+        ```bash
+        cat logs/expN.jsonl | jq '{ Model: .model, Query: .query }'
+        ```
+
+        ```json
+        {
+        "Model": "openai/gpt-4o-mini",
+        "Query": "Economic Dispatch Problem Valve-Point Effect"
+        }
+        ...
+        {
+        "Model": "openai/gpt-4o-mini",
+        "Query": "Economic Dispatch Problem AND Valve-Point Effect"
+        }
+        ```
+
 !!! example "Comparing LLMs"
 
     **Common Settings**
@@ -113,7 +222,7 @@
             "Performance": {
                 "RR@10": 0.2,
                 "nDCG@10": 0.13120507751234178
-                }
+            }
         }
         ...
         {
@@ -122,7 +231,7 @@
             "Performance": {
                 "RR@10": 0.125,
                 "nDCG@10": 0.10699313236726378
-                }
+            }
         }
         ```
 
