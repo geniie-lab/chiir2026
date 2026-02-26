@@ -8,15 +8,17 @@ hide:
 !!! example "VSCode + Google Colab"
 
     - This hands-on session will use a virtual machine of Google Colab.
-    - We will use VSCode to talk to Google Colab.
+    - We will then use VSCode to talk to Google Colab.
     - See [https://developers.googleblog.com/google-colab-is-coming-to-vs-code/](https://developers.googleblog.com/google-colab-is-coming-to-vs-code/)
 
 !!! success "What you need to have"
 
     - Google Account
-    - [VSCode](https://code.visualstudio.com/Download) on your PC
+    - [VSCode](https://code.visualstudio.com/Download) installed on your PC
 
-!!! abstract "Install Colab Extension to VSCode"
+!!! abstract "Install Colab Extension in VSCode"
+
+    See [https://developers.googleblog.com/google-colab-is-coming-to-vs-code/](https://developers.googleblog.com/google-colab-is-coming-to-vs-code/#getting-started-with-the-colab-extension)
 
     - Click :material-view-grid-plus: `Extension Icon` on the [Activity Bar](https://code.visualstudio.com/docs/getstarted/userinterface) of VSCode
     - Type `Colab` in the search box
@@ -33,6 +35,12 @@ hide:
 
 !!! abstract "Connect to Google Colab"
 
-    - Download [Welcome notebook](welcome.ipynb) (or from [GitHub](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/howto_prepare/welcome.ipynb)) to your PC
-    - Open the notebook using VSCode
+    - Download [Welcome notebook](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/howto_prepare/welcome.ipynb) to your PC
+    - Open the notebook **using VSCode**
     - Follow the instruction in the notebook
+
+!!! question "When you lost a connection to Colab Server"
+
+    - Close VSCode and restart it
+    - Open the Welcome notebook and repeat the connection steps
+    - Repeat the step 2 of [Set up geniie-lab](../getting_started/setup_geniielab.md)
