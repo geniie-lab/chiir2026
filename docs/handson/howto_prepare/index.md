@@ -23,7 +23,7 @@ hide:
     - Click :material-view-grid-plus: `Extension Icon` on the [Activity Bar](https://code.visualstudio.com/docs/getstarted/userinterface) of VSCode
     - Type `Colab` in the search box
     - Select :simple-googlecolab: `Colab` extension by Google :arrow_right: Install
-        - Avoid similar extentions by other vendors.
+        - Avoid similar extensions by other vendors.
     - Type `Ctrl+,` to open the Settings
         - Or, click :wheel: `Wheel Icon` on the Activity Bar :arrow_right: Settings
     - Type `Colab` in the search box

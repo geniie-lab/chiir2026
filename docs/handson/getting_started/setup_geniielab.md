@@ -37,7 +37,7 @@ hide:
     - Refresh the file list and find the folder
 
     ```
-    Colab CPU (GPU T4)
+    Colab CPU (or GPU T4)
       ├ drive
           ├ MyDrive
               ├ geniie-lab
@@ -58,7 +58,7 @@ hide:
 
 !!! note ":three: Add .env file"
 
-    - Right-click the `geniie-lab` folder in the list :arrow_right: `New File...`
+    - Right-click the `geniie-lab` folder in the file list :arrow_right: `New File...`
     - Enter `.env` as the file name
     - Copy and paste a KEY sent from the organiser
 
@@ -73,7 +73,7 @@ hide:
     - Find `scripts/run_session_experiment_chiir2026.py`
 
         ```
-        Colab CPU (GPU T4)
+        Colab CPU (or GPU T4)
         ├ drive
             ├ MyDrive
                 ├ geniie-lab

@@ -35,7 +35,7 @@ hide:
         cat logs/exp1.jsonl | jq
         ```
 
-    -  You should get something like this.
+    -  You should see something like this.
 
         ```json
         {
@@ -60,10 +60,10 @@ hide:
 
     You successfully ran the first experiment using geniie-lab!
 
-    What just happened? Well, you instructed the model `gpt-4o-mini` to formulate a query based on the context information about ...
+    What just happened? Well, you instructed the language model `gpt-4o-mini` to formulate a query based on the context information about ...
 
     - Precision-oriented retrieval task;
-    - First topic of `beir/scidocs` dataset; and
+    - Corpus and first topic of `beir/scidocs` dataset; and
     - BM25 ranking model
 
 !!! tip "A quick exercise"
