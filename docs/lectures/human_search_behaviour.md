@@ -5,9 +5,13 @@ hide:
 
 # Human Search Behaviour on the Web
 
-## Query volume
+## Query Volume
 
 ![](images/google.png)
+
+### Query Volume in ChatGPT
+
+![](images/openai.png)
 
 ## Query Length
 

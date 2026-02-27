@@ -14,6 +14,8 @@ hide:
 
 ## CoPilot
 
+:bulb: Highlighted by the presenter.
+
 ![](images/copilot_report1.png)
 
 ![](images/copilot_report2.png)
