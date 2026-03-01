@@ -5,10 +5,16 @@ hide:
 
 # Lecture Material
 
+!!! warning "Relevant contents only"
+
+    - This material contains only those contents that are highly relevant to the scope of the tutorial.
+    - Participants should refer to [references](references.md) to gain a better understanding of individual topics.
+
 !!! warning "Use of generated images"
 
     - This material contains illustrations created using generative AI models.
     - As a result, some visual representations of terms, theories, models, concepts, or technologies may be inaccurate or not fully faithful to real‑world details.
+
 
 <div class="grid" markdown>
 

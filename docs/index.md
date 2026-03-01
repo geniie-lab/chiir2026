@@ -55,7 +55,3 @@ hide:
     **Wrap-up:** open discussion, Q&A, and identifying future directions for the community
 
 </div>
-
-## Tutorial Material
-
-??? quote "Coming Soon"
