@@ -1,6 +1,7 @@
 site_name: Controlled Experimentation of Model Search Behaviour with Geniie-Lab
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Hands-on:
     - handson/index.md
     - Prerequisites:
@@ -16,8 +17,10 @@ nav:
       - handson/getting_started/setup_geniielab.md
       - handson/getting_started/first_experiment.md
     - Experimental Settings: handson/experimental_settings/index.md
-    - Basic Experiments:
-      - handson/basic_experiments/index.md
+    - Experiments:
+      - handson/experiments/index.md
+    - Data Analysis:
+      - handson/data_analysis/index.md
   - About: about.md
 theme:
   name: material

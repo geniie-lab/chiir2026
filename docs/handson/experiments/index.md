@@ -1,4 +1,4 @@
-# Basic Experiments
+# Experiments
 
 !!! tip "Start Small"
 
