@@ -4,7 +4,7 @@
 
 !!! note "Use setup notebook"
 
-    - Download [Setup notebook](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/getting_started/setup_geniielab.ipynb) to your Google Drive
+    - Download [setup_geniielab.ipynb](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/getting_started/setup_geniielab.ipynb) to your Google Drive
     - Open the notebook using Google Colab
     - Follow the instruction
 
