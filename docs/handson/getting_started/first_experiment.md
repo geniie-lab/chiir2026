@@ -5,13 +5,15 @@ hide:
 
 # First Experiment
 
-!!! info "Colab Terminal in VSCode"
+!!! info "Colab Terminal"
 
-    The following instructions should be executed from the terminal in VSCode which is connected to Colab Server.
+    The following instructions should be executed from either 1) Terminal in Google Colab or 2) the terminal in VSCode which is connected to Colab Server.
 
-    You should see the following prompt in the terminal.
-
+    Let's go to `geniie-lab` folder first
+    
     ```bash
+    /content#
+    /content# cd /content/drive/MyDrive/geniie-lab
     /content/drive/MyDrive/geniie-lab#
     ```
 

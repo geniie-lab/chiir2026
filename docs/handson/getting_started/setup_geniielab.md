@@ -1,9 +1,15 @@
----
-hide:
-    - toc
----
-
 # Setup geniie-lab
+
+## Method 1: Google Colab (Browser) Only
+
+!!! note "Use setup notebook"
+
+    - Download [Setup notebook](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/getting_started/setup_geniielab.ipynb) to your Google Drive
+    - Open the notebook using Google Colab
+    - Follow the instruction
+
+
+## Method 2: VSCode + Google Colab
 
 !!! success "Check List"
 
@@ -81,7 +87,7 @@ hide:
                         ├ run_session_experiment_chiir2026.py
         ```
 
-    - Open the file and change the `localhsot` to an IP Address shared by the organiser
+    - Open the file and change the `localhost` to an IP Address shared by the organiser
         - Around Line 58
 
         ```python

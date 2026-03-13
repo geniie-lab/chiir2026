@@ -1,13 +1,22 @@
----
-hide:
-    - toc
----
-
 # How to prepare your PC for the hands-on session
+
+!!! tip "Choose your method"
+
+    - Method 1: Easy to get started. Editing might be slightly cumbersome.
+    - Method 2: Need extra time to get started. Editing should be more comfortable.
+
+## Method 1: Google Colab (Browser) Only
+
+!!! success "What you need to have"
+
+    - Google Account
+
+
+## Method 2: VSCode + Google Colab
 
 !!! example "VSCode + Google Colab"
 
-    - This hands-on session will use a virtual machine of Google Colab.
+    - This method will use a virtual machine of Google Colab.
     - We will then use VSCode to talk to Google Colab.
     - See [https://developers.googleblog.com/google-colab-is-coming-to-vs-code/](https://developers.googleblog.com/google-colab-is-coming-to-vs-code/)
 
