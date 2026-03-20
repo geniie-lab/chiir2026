@@ -36,11 +36,10 @@ hide:
     - [Controlled Experiment](controlled_experiment.md)
     - [Test Collection](test_collection.md)
 
-!!! note "4. Data Analysis"
+!!! note "4. Design and Analysis"
 
-    - [Descriptive Statistics](descriptive_statistics.md)
-    - [Statistical Testing](statistical_testing.md)
-    - [Effect Size](effect_size.md)
+    - [Experimental Design](experimental_design.md)
+    - [Data Analysis](data_analysis.md)
 
 </div>
 

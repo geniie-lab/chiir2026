@@ -19,11 +19,10 @@ nav:
       - lectures/research_methods.md
       - lectures/controlled_experiment.md
       - Test Collection: lectures/test_collection.md
-    - Data Analysis:
-      - lectures/descriptive_statistics.md
-      - lectures/statistical_testing.md
-      - lectures/effect_size.md
-    - lectures/references.md
+    - Design and Analysis:
+      - lectures/experimental_design.md
+      - lectures/data_analysis.md
+    - References: lectures/references.md
   - Hands-on:
     - handson/index.md
     - Prerequisites:
@@ -35,7 +34,14 @@ nav:
         - handson/prerequisites/indexing_dpr.md
       - handson/prerequisites/llms.md
     - How to Prepare: handson/howto_prepare/index.md
+    - Getting Started:
+      - handson/getting_started/setup_geniielab.md
+      - handson/getting_started/first_experiment.md
     - Experimental Settings: handson/experimental_settings/index.md
+    - Experiments:
+      - handson/experiments/index.md
+    - Data Analysis:
+      - handson/data_analysis/index.md
   - About:
     - about.md
 theme:
