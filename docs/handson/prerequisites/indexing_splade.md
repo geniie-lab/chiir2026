@@ -1,7 +1,7 @@
 # SPLADE Model
 
 !!! quote "Notebook"
-    - [indexing_splade.ipynb](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/prerequisites/indexing_splade.ipynb)
+    - [indexing_splade.ipynb](https://github.com/geniie-lab/chiir2026/blob/main/docs/handson/prerequisites/indexing_splade.ipynb)
 
 ## Indexing
 

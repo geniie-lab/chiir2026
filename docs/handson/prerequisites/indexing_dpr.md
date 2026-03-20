@@ -1,7 +1,7 @@
 # DPR Model
 
 !!! quote "Notebook"
-    - [indexing_dpr.ipynb](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/prerequisites/indexing_dpr.ipynb)
+    - [indexing_dpr.ipynb](https://github.com/geniie-lab/chiir2026/blob/main/docs/handson/prerequisites/indexing_dpr.ipynb)
 
 ## Indexing
 

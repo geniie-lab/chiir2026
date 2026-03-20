@@ -1,7 +1,7 @@
 # BM25 Model
 
 !!! quote "Notebook"
-    - [indexing_bm25.ipynb](https://github.com/geniie-lab/chiir2026/blob/dev-handson/docs/handson/prerequisites/indexing_bm25.ipynb)
+    - [indexing_bm25.ipynb](https://github.com/geniie-lab/chiir2026/blob/main/docs/handson/prerequisites/indexing_bm25.ipynb)
 
 ## Indexing
 
