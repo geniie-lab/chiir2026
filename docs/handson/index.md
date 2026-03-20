@@ -11,7 +11,7 @@ hide:
     - [Indexing](prerequisites/indexing.md)
     - [LLMs](prerequisites/llms.md)
 
-!!! tip "Homework (15~30 min)"
+!!! tip "Homework (0 to 30 min)"
 
     - [How to prepare your PC for the hands-on session](howto_prepare/index.md)
 
