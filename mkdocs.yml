@@ -1,7 +1,28 @@
 site_name: Controlled Experimentation of Model Search Behaviour with Geniie-Lab
 nav:
-  - Home:
+  - Home: 
     - index.md
+    - lectures/index.md
+    - handson/index.md
+    - about.md
+  - Lectures:
+    - lectures/index.md
+    - Background:
+      - lectures/generative_ai_usage.md
+      - lectures/parametric_knowledge.md
+      - lectures/rag.md
+    - Search Behaviour:
+      - lectures/wilson_nested_model.md
+      - lectures/human_search_behaviour.md
+      - lectures/model_search_behaviour.md
+    - Research Methods:
+      - lectures/research_methods.md
+      - lectures/controlled_experiment.md
+      - Test Collection: lectures/test_collection.md
+    - Design and Analysis:
+      - lectures/experimental_design.md
+      - lectures/data_analysis.md
+    - References: lectures/references.md
   - Hands-on:
     - handson/index.md
     - Prerequisites:
