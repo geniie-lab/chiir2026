@@ -1,3 +1,8 @@
+---
+hide:
+    - toc
+---
+
 # References (Selected)
 
 ## On Test Collection
