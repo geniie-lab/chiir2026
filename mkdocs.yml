@@ -5,7 +5,7 @@ nav:
     - lectures/index.md
     - handson/index.md
     - about.md
-  - Lectures:
+  - Lecture:
     - lectures/index.md
     - Background:
       - lectures/generative_ai_usage.md
@@ -42,7 +42,8 @@ nav:
       - handson/experiments/index.md
     - Data Analysis:
       - handson/data_analysis/index.md
-  - About: about.md
+  - About:
+    - about.md
 theme:
   name: material
   language: en

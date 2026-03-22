@@ -1,6 +1,5 @@
 ﻿---
 hide:
-    - navigation
     - toc
 ---
 
@@ -10,7 +9,7 @@ This is a website for a half-day tutorial at [CHIIR 2026](https://chiir2026.gith
 
 ## Presenter
 
-![](profile.jpg){ align=right width=10% }
+![](profile.jpg){ align=right width=15% }
 
 Hideo Joho is a Professor of Informatics at the [Institute of Library, Information and Media Science](https://www.slis.tsukuba.ac.jp/index-en.html) at the [University of Tsukuba](https://www.tsukuba.ac.jp/en/). He is a member of [Information Retrieval Research Group](https://ir-tsukuba.github.io/) at Tsukuba. His research interests include interactive information retrieval, human information interaction, and more recently, model search behaviour. He received his MSc and PhD from the Department of Information Studies at the University of Sheffield, and is currently an Honorary Research Fellow at the University of Glasgow.
 
