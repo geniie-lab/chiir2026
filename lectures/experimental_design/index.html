@@ -20,7 +20,7 @@
     
     
       
-        <title>Experimental Design - Controlled Experimentation of Model Search Behaviour with Geniie-Lab</title>
+        <title>Experimental Design 101 - Controlled Experimentation of Model Search Behaviour with Geniie-Lab</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#experimental-design" class="md-skip">
+        <a href="#experimental-design-101" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Experimental Design
+              Experimental Design 101
             
           </span>
         </div>
@@ -247,6 +247,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -927,7 +929,7 @@
   
   
   <span class="md-ellipsis">
-    Experimental Design
+    Experimental Design 101
     
   </span>
   
@@ -1677,7 +1679,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1700,20 +1704,65 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
-
-<h1 id="experimental-design">Experimental Design</h1>
-<p>TBA</p>
+  
 
 
 
 
+<h1 id="experimental-design-101">Experimental Design 101</h1>
+<div class="admonition info">
+<p class="admonition-title">Variables</p>
+<ul>
+<li><strong>Independent Variables (IVs)</strong>: Factors that experimenters intentionally manipulate in experiments<ul>
+<li>LLMs, Ranking Models, Prompts, etc.</li>
+</ul>
+</li>
+<li><strong>Dependent Variables (DVs)</strong>: Variables that measure the effect of IVs<ul>
+<li>Number of queries, query length, retrieval effectivness, accuracy of relevance judgements, etc.</li>
+</ul>
+</li>
+<li>Other Variables: confounding variable, moderating variable, intervening variable, ...<ul>
+<li>See Chapter 5 of <a href="../references/">Kelly (2009)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Within Subject and Between Subject</p>
+<ul>
+<li><strong>Within-Subject Design</strong>: Each participant contributes measurements across all experimental conditions.</li>
+<li><strong>Between-Subject Design</strong>: Each participant is exposed to one condition only.</li>
+</ul>
+</div>
+<div class="admonition question">
+<p class="admonition-title">What does this mean in model search behaviour?</p>
+<p>When applying human experimental‑design concepts to computational models, it is more accurate to focus on whether the model’s behavior is stateful (context‑dependent) or stateless (independent across trials). The analogy to within‑/between‑subject designs is helpful but not literal.</p>
+<ul>
+<li><strong>Stateful or Context‑Persistent Evaluation</strong>: When previous search logs or dialogue history are included in the model’s input, the model’s outputs can be influenced by earlier turns.<ul>
+<li>This is analogous to a within‑subject design because earlier “conditions” may affect later behavior through carryover effects.</li>
+</ul>
+</li>
+<li><strong>Stateless or Context‑Reset Evaluation</strong>: When each model call begins with a fresh context (no past logs, no accumulated history), each response is independent of previous interactions.<ul>
+<li>This is analogous to a between‑subject design because no carryover effects are possible and each inference is isolated.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4a1.svg" title=":bulb:" /> These are analogies rather than strict equivalences. The model is not a human subject, and repeated calls do not change the model’s underlying parameters.</p>
+</div>
 
 
 
 
 
+
+
+  
+  
+
+
+
+
+  
 
 
 
