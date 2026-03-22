@@ -14,25 +14,7 @@ hide:
 === "Search Topic"
 
     ```
-    <top>
-
-    <num> Number: 303
-    <title> Hubble Telescope Achievements
-
-    <desc> Description:
-    Identify positive accomplishments of the Hubble telescope since it
-    was launched in 1991.
-
-    <narr> Narrative:
-    Documents are relevant that show the Hubble telescope has produced
-    new data, better quality data than previously available, data that
-    has increased human knowledge of the universe, or data that has led
-    to disproving previously existing theories or hypotheses.  Documents
-    limited to the shortcomings of the telescope would be irrelevant.
-    Details of repairs or modifications to the telescope without
-    reference to positive achievements would not be relevant.
-
-    </top>
+    TBA
     ```
 
 === "Sample document"
